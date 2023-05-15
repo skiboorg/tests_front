@@ -64,21 +64,18 @@
         <div v-if="clusters">
           <div class="grid">
             <div class="col-12 text-center">
-              <p class="font-bold text-primary">Паутинообразная диаграмма</p>
-              <img :src="APIURL+'/media/total.png'" alt="">
+              <p class="font-bold text-primary">График каменистой осыпи</p>
+              <img :src="APIURL+'/media/stone.png'" alt="">
             </div>
             <div class="col-12 text-center">
-              <p class="font-bold text-primary">Паутинообразная диаграмма для теста 1</p>
-              <img :src="APIURL+'/media/test1.png'" alt="">
+              <p class="font-bold text-primary">Паутинообразная диаграмма </p>
+              <img :src="APIURL+'/media/spider.png'" alt="">
             </div>
             <div class="col-12 text-center">
-              <p class="font-bold text-primary">Паутинообразная диаграмма для теста 2</p>
-              <img :src="APIURL+'/media/test2.png'" alt="">
+              <p class="font-bold text-primary">Дендрограмма</p>
+              <img :src="APIURL+'/media/dend.png'" alt="">
             </div>
-            <div class="col-12 text-center">
-              <p class="font-bold text-primary">Паутинообразная диаграмма для теста 3</p>
-              <img :src="APIURL+'/media/test3.png'" alt="">
-            </div>
+
           </div>
 
 
@@ -119,3 +116,7 @@ const getClusters = async () => {
   loading.value = !loading.value
 }
 </script>
+<style lang="sass">
+.p-password-panel
+  display: none
+</style>
