@@ -73,7 +73,7 @@
             </div>
             <div class="col-12 text-center">
               <p class="font-bold text-primary">Дендрограмма</p>
-              <img :src="APIURL+'/media/dend.png'" alt="">
+              <img :src="APIURL+'/media/3/dend.png'" alt="">
             </div>
 
           </div>
