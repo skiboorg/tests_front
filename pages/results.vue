@@ -65,7 +65,7 @@
           <div class="grid">
             <div class="col-12 text-center">
               <p class="font-bold text-primary">График каменистой осыпи</p>
-              <img :src="APIURL+'/media/1/stone.png'" alt="">
+              <img :src="APIURL+'/media/stone.png'" alt="">
             </div>
             <div class="col-12 text-center">
               <p class="font-bold text-primary">Паутинообразная диаграмма </p>
