@@ -1,5 +1,5 @@
 <template>
-  <section v-if="is_auth" class="flex align-items-center justify-content-center flex-column h-100-vh">
+  <section v-if="!is_auth" class="flex align-items-center justify-content-center flex-column h-100-vh">
     <div class="container ">
       <form @submit.prevent="handleSubmit()" class="w-full p-fluid surface-card py-8 px-5 sm:px-8 " style="border-radius: 53px">
 
